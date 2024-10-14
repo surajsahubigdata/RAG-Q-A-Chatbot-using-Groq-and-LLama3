@@ -1,0 +1,19 @@
+RAG Document Q&A With Groq And Llama3
+
+Enter your query from the research paper: What is self-reflection?
+
+[Document Embedding] (Button)
+
+[After Embedding is Ready]
+
+Response Time: 1.25 seconds
+Answer:
+Self-reflection is the process of introspecting and examining one's own thoughts, feelings, and actions. It allows individuals to gain deeper insights into their motivations and behaviors. Through self-reflection, people can identify areas for personal growth and make informed decisions.
+
+[Document Similarity Search] (Expander)
+Document 1:
+... [Content from relevant PDF] ...
+------------------------
+Document 2:
+... [Content from another relevant PDF] ...
+------------------------
