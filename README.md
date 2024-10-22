@@ -17,7 +17,11 @@ This project implements a Retrieval-Augmented Generation (RAG) model to answer q
 
 ## Installation
 + Clone the repository:
+
     Inline `code`
 
-    git clone <repository-url>
-    cd <repository-name>
+    git clone https://github.com/yourusername/rag-qa-chatbot.git
+    
+
+
+
