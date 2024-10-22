@@ -1,3 +1,9 @@
-# RAG-Q-A-Chatbot-using-Groq-and-LLama3
+# RAG Document Q&A With Groq And Llama3
 
-The RAG Q&A chatbot leverages LangChain's Retrieval-Augmented Generation capabilities to answer user queries based on provided research papers stored as PDFs. It integrates a large language model (LLM) with a vector database to enhance the response accuracy by retrieving relevant context from the documents.
+## Overview
+This project implements a Retrieval-Augmented Generation (RAG) model to answer questions based on the content of research papers. Utilizing Langchain, Groq, and Llama3, the application allows users to query uploaded PDF documents and receive contextually relevant answers.
+
+## Features
++ * Document Embedding *: Users can load and embed documents, which are stored in a vector database for efficient retrieval.
++ * Contextual Q&A *: The application provides answers based solely on the content of the uploaded research papers.
++ * Similarity Search *: Users can view documents that are contextually relevant to their queries.
