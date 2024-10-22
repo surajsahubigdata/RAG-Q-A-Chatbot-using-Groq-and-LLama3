@@ -46,11 +46,8 @@ This project implements a Retrieval-Augmented Generation (RAG) model to answer q
     streamlit run app.py
 
 + Open your web browser and navigate to http://localhost:8501
-
 + Upload research papers by placing them in the research_papers directory
-
 + Enter your query in the provided text input and click the "Document Embedding" button to prepare the vector database.
-
 + After embedding the documents, you can enter any query related to the content of the research papers, and the application will     provide answers along with context from the relevant documents.
 
 ## Acknowledgments
@@ -58,6 +55,14 @@ This project implements a Retrieval-Augmented Generation (RAG) model to answer q
 + Groq
 + Hugging Face
 + FAISS
+
+## User Interface
+
+![alt text](<User Interface 1.PNG>)
+
+![alt text](<User Interface 2.PNG>)
+
+
 
 
 
