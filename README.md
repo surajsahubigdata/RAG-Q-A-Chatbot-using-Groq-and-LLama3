@@ -20,8 +20,46 @@ This project implements a Retrieval-Augmented Generation (RAG) model to answer q
 
     Inline `code`
 
-    git clone https://github.com/yourusername/rag-qa-chatbot.git
-    
+    git clone https://github.com/surajsahubigdata/RAG-Q-A-Chatbot-using-Groq-and-LLama3.git
+
++ Create virtual environment and install the required packages:
+
+    Inline `code`
+
+    conda create -p venv python==3.10
+
+    pip install -r requirements.txt
+
++ Create a .env file in the project root directory and add your API keys:
+
+    Inline `code`
+
+    GROQ_API_KEY=your_groq_api_key
+    HF_TOKEN=your_hugging_face_token
+
+## Usage
+
++ Run the streamlit application:
+
+    Inline `code`
+
+    streamlit run app.py
+
++ Open your web browser and navigate to http://localhost:8501
+
++ Upload research papers by placing them in the research_papers directory
+
++ Enter your query in the provided text input and click the "Document Embedding" button to prepare the vector database.
+
++ After embedding the documents, you can enter any query related to the content of the research papers, and the application will     provide answers along with context from the relevant documents.
+
+## Acknowledgments
++ Langchain
++ Groq
++ Hugging Face
++ FAISS
+
+
 
 
 
